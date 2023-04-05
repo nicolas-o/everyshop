@@ -1,0 +1,3 @@
+# everyshop
+
+npm run dev
