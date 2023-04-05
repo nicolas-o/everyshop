@@ -3,7 +3,7 @@ import { renderListWithTemplate } from "../main.js";
 function productCardTemplate(category) {
   return `<li class="category-box">
           <a href="/pages/productListing.html?category=${category}">
-            <img src="../../img/${category}.jpg" alt="" class="category-img" />
+            <img src="../../../public/img/${category}.jpg" alt="" class="category-img" />
           </a>
           <h2 class="category-title">${category.toUpperCase()}</h2>
         </li>`;
